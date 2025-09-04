@@ -16,9 +16,13 @@ It primarily handles information management for the competition and controls oth
 
 ### Backend
 - Laravel
+  - Using Laravel Sail.
+  - Using MariaDB for the database.
 
 ### Frontend
 - React
+  - TailAdmin ([Reference: https://tailadmin.com/](https://tailadmin.com/)) is used as the UI
+  - Implemented as a single-page application (SPA)
 
 ## Important Notes
 
@@ -27,3 +31,8 @@ It primarily handles information management for the competition and controls oth
 - When performing Compact, “Compress only older history; do not compress recent history.”
 - Always run Laravel via Laravel Sail.
 - During development, do not run npm run build; always use npm run 
+- If you have any questions, please search online.
+- When searching online, please refer to official sources whenever possible.
+- If you absolutely cannot resolve the issue yourself, please check with me before proceeding.
+- The frontend should adhere to the components provided by TailAdmin as much as possible. If a component does not exist, create a new React component.
+For information about TailAdmin, refer to the contents of /tailadmin-template.
